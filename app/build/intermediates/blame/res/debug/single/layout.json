@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Ardiansyah\\Desktop\\TebakWarna\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Ardiansyah\\Desktop\\TebakWarna\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kuning.xml",
+        "source": "C:\\Users\\Ardiansyah\\Desktop\\TebakWarna\\app\\src\\main\\res\\layout\\activity_kuning.xml"
+    },
+    {
         "merged": "C:\\Users\\Ardiansyah\\Desktop\\TebakWarna\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Ardiansyah\\.android\\build-cache\\21edd04b79e6fccb0fed463a47abf03679429c1a\\output\\res\\layout\\select_dialog_item_material.xml"
     },

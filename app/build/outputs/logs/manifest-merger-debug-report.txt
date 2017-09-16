@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.x
 		INJECTED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ardiansyah\.android\build-cache\21edd04b79e6fccb0fed463a47abf03679429c1a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Ardiansyah\.android\build-cache\fc36a42615ed96135311ef498847f9b4d76a31d1\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Ardiansyah\.android\build-cache\a76b5bd08f588aa1eb90ac1e17436ac039b8b4d5\output\AndroidManifest.xml:29:5-20
@@ -52,9 +52,13 @@ ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:16:27-74
 activity#unj.adefault.com.tebakwarna.halaman_kuis.MerahActivity
-ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:19:9-73
+ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:19:9-64
 	android:name
 		ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:19:19-61
+activity#unj.adefault.com.tebakwarna.halaman_kuis.KuningActivity
+ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:20:9-74
+	android:name
+		ADDED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml:20:19-62
 uses-sdk
 INJECTED from C:\Users\Ardiansyah\Desktop\TebakWarna\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ardiansyah\.android\build-cache\21edd04b79e6fccb0fed463a47abf03679429c1a\output\AndroidManifest.xml:21:5-23:78

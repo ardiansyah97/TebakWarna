@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name="unj.adefault.com.tebakwarna.halaman_kuis.MerahActivity" />
+        <activity android:name="unj.adefault.com.tebakwarna.halaman_kuis.KuningActivity" />
     </application>
 
 </manifest>

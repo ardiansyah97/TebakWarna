@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".halaman_kuis.MerahActivity"></activity>
+        <activity android:name=".halaman_kuis.MerahActivity" />
+        <activity android:name=".halaman_kuis.KuningActivity"></activity>
     </application>
 
 </manifest>

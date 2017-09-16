@@ -1,6 +1,8 @@
 package unj.adefault.com.tebakwarna.halaman_kuis;
 
+import android.content.Intent;
 import android.media.Image;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,12 +37,33 @@ public class MerahActivity extends AppCompatActivity {
                     //akan memunculkan smile
                     imgSmile.setVisibility(View.VISIBLE);
 
+                    int secondsDelayed = 3;
+                    new Handler().postDelayed(new Runnable() {
+                        public void run() {
+                            imgSmile.setVisibility(View.INVISIBLE);
+
+                            Intent intent = new Intent(getApplicationContext(), KuningActivity.class);
+                            startActivity(intent);
+                            
+                            finish();
+                        }
+                    }, secondsDelayed * 1000);
+
+
+
                 } else {
                     Toast.makeText(getApplicationContext(), "Jawaban Salah", Toast.LENGTH_SHORT).show();
 
                     //akan memunculkan sad
                     imgSad.setVisibility(View.VISIBLE);
 
+                    int secondsDelayed = 3;
+                    new Handler().postDelayed(new Runnable() {
+                        public void run() {
+                            imgSad.setVisibility(View.INVISIBLE);
+                            finish();
+                        }
+                    }, secondsDelayed * 1000);
                 }
             }
         });
